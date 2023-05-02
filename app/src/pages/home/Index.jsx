@@ -4,6 +4,7 @@ import Perfil from "../../componentes/Perfil/"
 import Conhecimento from "../../componentes/Conhecimentos/"
 import Footer from '../../componentes/Footer/'
 
+
 function Home() {
 
 

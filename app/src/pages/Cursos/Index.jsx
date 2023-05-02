@@ -1,6 +1,6 @@
 import '../../App.css'
 import Header from "../../componentes/Header/"
-import Perfil from "../Sobre/"
+import Perfil from "../../componentes/Perfil/"
 import Footer from '../../componentes/Footer/'
 
 function Cursos() {
@@ -20,24 +20,43 @@ function Cursos() {
 
             <div className='boxCurso'>
 
-              <details className='fid'>
-                  <summary><h2>Fid</h2></summary>
-                  <p>aaaa</p>
-                  <p>aaaa</p>
-                  <p>aaaa</p>
-              </details>
-              <details className='udemy'>
-              <summary><h2>Udemy</h2></summary>
-                  <p>aaaa</p>
-                  <p>aaaa</p>
-                  <p>aaaa</p>
-              </details>
-              <details className='curso24h'>
-              <summary><h2>Curso24h</h2></summary>
-                  <p>aaaa</p>
-                  <p>aaaa</p>
-                  <p>aaaa</p>
-              </details> 
+            <div className='blocoCurso'>
+              <h3>Fid</h3>
+              <p>Baicharelado em  Sistema de Informação</p>
+              <p>Ano: 2013</p>
+            </div>                
+
+            
+            <div className='blocoCurso'>
+              <h3>Udemy</h3>
+              <p>Java Completo Programaão Orinetada a Objetos + projetos</p>
+              <p>Ano: 2023</p>
+            </div>
+
+            
+            <div className='blocoCurso'>
+              <h3>Udemy</h3>
+              <p>Spring Boot & MVC com Thymeleaf</p>
+              <p>Ano: 2023</p>
+            </div>
+
+            <div className='blocoCurso'>
+              <h3>Udemy</h3>
+              <p>HTML5 e CSS3 : Tecnicas Avançadas</p>
+              <p>Ano: 2023</p>
+            </div>
+            
+            <div className='blocoCurso'>
+              <h3>Curso24h</h3>
+              <p>Segurança na Internet</p>
+              <p>Ano: 2011</p>
+            </div>
+
+            <div className='blocoCurso'>
+              <h3>Curso24h</h3>
+              <p>Redes e Noções de Hardware</p>
+              <p>Ano: 2011</p>
+            </div>
 
            </div>
 

@@ -1,6 +1,6 @@
-import './App.css'
-import Header from "./componentes/Header/"
-import Footer from './componentes/Footer/'
+import '../../../App.css'
+import Header from "../../../componentes/Header"
+import Footer from '../../../componentes/Footer/'
 
 function Webcurriculo() {
 
@@ -17,18 +17,19 @@ function Webcurriculo() {
 
           <div className='boxProjetos'>
 
-            <div className='imgProjeto'></div>
+            <div className='imgProjeto imgwebcurriculo'></div>
             <div className='infoProjeto'>
 
-              <h3>Nome do projeto</h3>
-              <span>app feito com tecnicas de HTML5, CSS3, Flex, dentre outros, com o intuito de demostrar o conhecimento</span>
+              <h3>Web Curriculo</h3>
+              <span>app feito com tecnicas de HTML5, CSS3, Flex, React, vite, dentre outras pronta para adição de recursos backend</span>
               
               <h3>ferramentas utilizadas</h3>
               <ul>
-                <li>sçolaslkd</li>
-                <li>sçolaslkd</li>
-                <li>sçolaslkd</li>
-                <li>sçolaslkd</li> 
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>FLEX</li>
+                <li>REACT</li>
+                <li>VITE</li>
               </ul>  
 
             </div>

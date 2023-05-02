@@ -1,5 +1,5 @@
-import "./header.css"
-
+import "../../App.css"
+import {Link} from "react-router-dom"
 function Header() {
 
 
@@ -8,17 +8,14 @@ function Header() {
             <header>
             <div className="logo"></div>
             <nav>
-
-                <a href='#'>Home</a>
-                <a href='#'>Cursos</a>
-                <a href='#'>
+                <Link to="/">Home</Link>
+                <Link to="/Cursos">Cursos</Link>
                   <details>
                     <summary>Projetos</summary>
-                    <span><a href='#'>Hotel </a></span>
-                    <span><a href='#'>Doceria </a></span>
-                    <span><a href='#'>Web Curriculo </a></span>
+                    <span><Link to="/Hotel"> Hotel</Link> </span>
+                    <span><Link to="/Doceria">Doceria</Link></span>
+                    <span><Link to="/Webcurriculo">Web Curriculo</Link> </span>
                   </details>
-                </a>
            
             </nav>
         </header>

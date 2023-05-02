@@ -1,22 +1,23 @@
 import '../../App.css'
+import React from 'react'
 
 
-function Sobre() {
 
+function Perfil() { 
 
   return (
     <>
  
             <div className='boxPerfil'> 
-                  <div className='imgPerfil'>
-                    IMG perfil
+                  <div className='imgPerfil'> 
+                    
                   </div>
                   <div className='informação'>
-                    <h1>Nome</h1>
-                    <p>Objetico</p>
+                    <h1>Marcel Higor Quinteiro Araujo</h1>
+                    <p>Buscando um novo caminho profissional dedicando aos estudos na área de programação HTML5 CSS3, java, dentre outros</p>
                   </div>
             </div>
     </>
   )}
 
-export default Sobre
+export default Perfil

@@ -8,12 +8,11 @@ function Conhecimento() {
     <>
    
              <div className='conhecimentos'>
-                <div className='box'>html</div>
-                <div className='box'>css</div>
-                <div className='box'>java</div>
-                <div className='box'>React</div>
-                <div className='box'>React</div>
-                <div className='box'>React</div>
+                <div className='box lhtml'></div>
+                <div className='box css'></div>
+                <div className='box java'></div>
+                <div className='box react'></div>
+                <div className='box ps'></div>
              </div>
     </>
   )}
