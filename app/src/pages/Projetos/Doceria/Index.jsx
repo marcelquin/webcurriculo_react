@@ -21,7 +21,7 @@ function Doceria() {
             <div className='infoProjeto'>
 
               <h3>DOCERIA</h3>
-              <span>app feito com tecnicas de HTML5, CSS3, Flex, dentre outros.</span>
+              <span>app feito com tecnicas de HTML5, CSS3, Flex, dentre outros, com o intuito de demostrar o conhecimento.</span>
               
               <h3>ferramentas utilizadas</h3>
               <ul>

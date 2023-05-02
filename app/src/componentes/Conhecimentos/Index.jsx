@@ -10,9 +10,11 @@ function Conhecimento() {
              <div className='conhecimentos'>
                 <div className='box lhtml'></div>
                 <div className='box css'></div>
-                <div className='box java'></div>
+                <div className='box vite'></div>
                 <div className='box react'></div>
                 <div className='box ps'></div>
+                <div className='box git'></div>
+                <div className='box java'></div>
              </div>
     </>
   )}

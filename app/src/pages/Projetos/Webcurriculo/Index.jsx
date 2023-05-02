@@ -31,7 +31,7 @@ function Webcurriculo() {
                 <li>REACT</li>
                 <li>VITE</li>
               </ul>  
-
+              <h3><a href='https://github.com/marcelquin/webcurriculo_reack'>GIT</a></h3>
             </div>
 
          </div>
