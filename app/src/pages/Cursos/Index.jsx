@@ -1,11 +1,9 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from "./componentes/Header/"
-import Perfil from "./pages/Sobre/"
-import Footer from './componentes/Footer/'
+import '../../App.css'
+import Header from "../../componentes/Header/"
+import Perfil from "../Sobre/"
+import Footer from '../../componentes/Footer/'
 
-function App() {
+function Cursos() {
 
 
   return (
@@ -52,4 +50,4 @@ function App() {
   )
 }
 
-export default App
+export default Cursos

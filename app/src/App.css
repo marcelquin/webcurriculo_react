@@ -100,6 +100,25 @@ section
   margin-left: 20px;
   margin-top: 20px;
 }
+/* cursos */
+.boxCurso
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fid, .udemy, .curso24h
+{
+  width: 100px;
+  height: auto;
+  margin-left: 50px
+}
+
+.boxCurso h2
+.boxCurso p
 /*footer */
 footer
 {
@@ -112,7 +131,7 @@ footer span
   font-size: 20px;
   color: #454545;;
 }
-
+ 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
