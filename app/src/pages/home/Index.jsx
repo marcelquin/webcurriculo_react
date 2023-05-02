@@ -1,6 +1,7 @@
 import '../../App.css'
 import Header from "../../componentes/Header/"
-import Perfil from "../Sobre/"
+import Perfil from "../../componentes/Perfil/"
+import Conhecimento from "../../componentes/Conhecimentos/"
 import Footer from '../../componentes/Footer/'
 
 function Home() {
@@ -18,14 +19,7 @@ function Home() {
 
               <Perfil/>
             
-            <div className='conhecimentos'>
-                <div className='box'>html</div>
-                <div className='box'>css</div>
-                <div className='box'>java</div>
-                <div className='box'>React</div>
-                <div className='box'>React</div>
-                <div className='box'>React</div>
-           </div>
+              <Conhecimento />
 
           </section>
           

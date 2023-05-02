@@ -117,8 +117,45 @@ section
   margin-left: 50px
 }
 
-.boxCurso h2
-.boxCurso p
+/* projetos  */
+
+.boxProjetos
+{
+  background-color: aquamarine;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgProjeto
+{
+  background-color: aliceblue;
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  border-radius: 20%;
+}
+.infoProjeto
+{
+  width: 270px;
+  height: 450;
+  margin-left: 25px;
+}
+.infoProjeto h3
+{
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.infoProjeto span
+{
+  font-size: 18px;
+  font-style: normal;
+}
+.infoProjeto ul, li
+{
+  font-size: 18px;
+}
 /*footer */
 footer
 {
