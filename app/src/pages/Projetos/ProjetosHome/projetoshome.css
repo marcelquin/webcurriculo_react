@@ -1,0 +1,46 @@
+/*projetos home */
+.blocoprojetoh
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.boxprojetoh
+{
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 25%;
+
+}
+.sphotel
+{
+    margin-top: 100px;
+}
+.btn
+{
+  background-color: #AFD3E2;
+  color: rgb(1, 1, 1);
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 350px;
+  border-radius: 10%;
+}
+.btn:hover
+{
+  background-color: #146C94;
+  color: white;
+}
+.sphotel:hover
+{
+  color:black;
+}
+
+.imgwebcurriculo
+{
+  background-image: url(../../../img/webcurriculo.PNG);
+}

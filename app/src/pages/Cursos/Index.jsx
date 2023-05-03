@@ -1,4 +1,5 @@
 import '../../App.css'
+import './cursos.css'
 import Header from "../../componentes/Header/"
 import Perfil from "../../componentes/Perfil/"
 import Footer from '../../componentes/Footer/'

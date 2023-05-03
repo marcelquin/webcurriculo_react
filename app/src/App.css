@@ -26,7 +26,7 @@ ul, li, a, details, summary, span
   height: 100%;
   background-color: #F6F1F1;
 }
-
+/*
 header
 {
   width: 100%;
@@ -63,7 +63,8 @@ nav span:hover
   color:#146C94;
   font-size: 28px;
 }
-/* perfil */
+*/
+/* perfil 
 .boxPerfil
 {
   margin-bottom: 30px;
@@ -73,7 +74,7 @@ nav span:hover
   font-size: 20px;
   margin-left:20px ;
   margin-right: 20px;
-}
+}*/
 /* conteudo */
 section
 {
@@ -81,21 +82,8 @@ section
   height: auto;
   margin-bottom: 80px;
 }
-.boxPerfil
-{
-  box-sizing: border-box;
-  display: flex;
-}
-.imgPerfil
-{
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-image: url("./img/perfil.PNG");
-  background-size: cover;
-  margin: 20px;
-}
-/*conhecimentos */
+
+/*conhecimentos 
 .conhecimentos
 {
   width: 100%;
@@ -141,153 +129,11 @@ section
 {
   background-image: url(./img/vite.svg);
 }
-/* cursos */
-.boxCurso
-{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.blocoCurso
-{
-  width: 290px;
-  height: 200px;
-  font-family: 'Courier New', Courier, monospace;
-  margin: 25px;
-}
-.blocoCurso h3
-{
-  text-transform: uppercase;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 5px;
-  text-align: justify;
-}
-.blocoCurso p
-{
-  font-size: 21px;
-  margin: 5px;
-  text-align: left;
-}
-.fid, .udemy, .curso24h
-{
-  width: 100px;
-  height: auto;
-  margin-left: 50px
-}
 
-/*projetos home */
-.blocoprojetoh
-{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 80px;
-  width: 100%;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-}
-.boxprojetoh
-{
-  width: 300px;
-  height: 400px;
-  margin: 20px;
-  border-radius: 25%;
 
-}
-.sphotel
-{
-    margin-top: 100px;
-}
-.btn
-{
-  background-color: #AFD3E2;
-  color: rgb(1, 1, 1);
-  font-size: 14px;
-  font-style: italic;
-  margin-top: 350px;
-  border-radius: 10%;
-}
-.btn:hover
-{
-  background-color: #146C94;
-  color: white;
-}
-.sphotel:hover
-{
-  color:black;
-}
 
-.imgwebcurriculo
-{
-  background-image: url(./img/webcurriculo.PNG);
-}
-/* projetos  */
 
-.boxProjetos
-{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 45px;
-}
-.imgProjeto
-{
-  background-color: rgb(67, 138, 201);
-  width: 300px;
-  height: 400px;
-  margin-left: 20px;
-  border-radius: 20%;
-}
-.infoProjeto
-{
-  width: 50%;
-  height: auto;
-  margin-left: 30px;
-  background-size: cover;
-}
-.imgwebcurriculo
-{
-  background-image: url(./img/webcurriculo.PNG);
-}
-.imghotel
-.imgdoceria
-.infoProjeto
-{
-  width: 270px;
-  height: 450;
-  margin-left: 25px;
-}
-.infoProjeto h3
-{
-  font-size: 20px;
-  font-style: italic;
-  text-transform: uppercase;
-}
-.infoProjeto span
-{
-  font-size: 18px;
-  font-style: normal;
-}
-.infoProjeto ul, li
-{
-  font-size: 18px;
-}
-/*footer */
-footer
-{
-  width: 100%;
-  height: 100px;
-  padding-top: 150px;
-}
-footer span
-{
-  font-size: 20px;
-  color: #454545;;
-}
+
  
 @keyframes logo-spin {
   from {

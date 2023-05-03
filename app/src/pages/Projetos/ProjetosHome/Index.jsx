@@ -1,4 +1,5 @@
 import '../../../App.css'
+import './projetoshome.css'
 import Header from "../../../componentes/Header"
 import Footer from '../../../componentes/Footer/'
 import {Link} from "react-router-dom"

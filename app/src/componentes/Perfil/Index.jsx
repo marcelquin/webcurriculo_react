@@ -1,4 +1,5 @@
 import '../../App.css'
+import './perfil.css'
 import React from 'react'
 
 
