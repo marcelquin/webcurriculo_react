@@ -17,18 +17,26 @@ function ProjetosH() {
         <section>
           
           <div className='blocoprojetoh'>
-            <div className='boxprojetoh imghotel'>
-            <Link to="/Hotel"> <span className='sphotel'>Hotel</span> </Link>
-            </div>
+             
+                <div className='boxprojetoh imghotel'>
+                <Link to="/Hotel"> <button type="button" class="btn btn-primary btn-sm">Ver Mais</button> </Link>
+                </div>
+
 
             <div className='boxprojetoh imgdoceria'>
-            <Link to="/Doceria"> <span className='sphotel'>Doceria</span> </Link>
+            <Link to="/Doceria"> <button type="button" class="btn btn-primary btn-sm">Ver Mais</button> </Link>
             </div>
 
             <div className='boxprojetoh imgwebcurriculo'>
-            <Link to="/Webcurriculo"> <span className='sphotel'>Web Curriculo</span> </Link>
+            <Link to="/Webcurriculo"> <span className='sphotel'>
+            <button type="button" class="btn btn-primary btn-sm">Ver Mais</button>
+            </span> </Link>
+
             </div>
 
+            <div className='boxprojetoh mkflix'>
+            <Link to="/Mkflix"> <button type="button" class="btn btn-primary btn-sm">Ver Mais</button> </Link>
+            </div>
 
           </div>
         </section>
