@@ -1,0 +1,52 @@
+/* projetos  */
+
+.boxProjetos
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+.imgProjeto
+{
+  background-color: rgb(67, 138, 201);
+  width: 300px;
+  height: 400px;
+  margin-left: 20px;
+  border-radius: 20%;
+}
+.infoProjeto
+{
+  width: 50%;
+  height: auto;
+  margin-left: 30px;
+  background-size: cover;
+}
+.imgwebcurriculo
+{
+  background-image: url(../../img/webcurriculo.PNG);
+}
+.imghotel
+.imgdoceria
+.infoProjeto
+{
+  width: 270px;
+  height: 450;
+  margin-left: 25px;
+}
+.infoProjeto h3
+{
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.infoProjeto span
+{
+  font-size: 18px;
+  font-style: normal;
+}
+.infoProjeto ul, li
+{
+  font-size: 18px;
+}

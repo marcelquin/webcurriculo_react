@@ -1,0 +1,36 @@
+/* cursos */
+.boxCurso
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blocoCurso
+{
+  width: 290px;
+  height: 200px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 25px;
+}
+.blocoCurso h3
+{
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.blocoCurso p
+{
+  font-size: 21px;
+  margin: 5px;
+  text-align: left;
+}
+.fid, .udemy, .curso24h
+{
+  width: 100px;
+  height: auto;
+  margin-left: 50px
+}
