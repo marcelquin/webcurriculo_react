@@ -1,13 +1,12 @@
 import '../../App.css'
 import './conhecimentos.css'
 
-
 function Conhecimento() {
 
 
   return (
     <>
-   
+            
              <div className='conhecimentos'>
                 <div className='box lhtml'></div>
                 <div className='box css'></div>
@@ -20,3 +19,8 @@ function Conhecimento() {
     </>
   )}
   export default Conhecimento
+
+  /*
+    
+
+  */
