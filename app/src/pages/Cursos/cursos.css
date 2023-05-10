@@ -9,10 +9,18 @@
 }
 .blocoCurso
 {
-  width: 290px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
   font-family: 'Courier New', Courier, monospace;
   margin: 25px;
+}
+.blocoCurso:hover
+{
+  background-color: aqua;
+  background-size: cover;
+  >h3{visibility: hidden;}
+  >p{visibility: hidden;}
+  >a{visibility: visible;}
 }
 .blocoCurso h3
 {
@@ -28,9 +36,16 @@
   margin: 5px;
   text-align: left;
 }
+.blocoCurso a
+{
+  font-size: 21px;
+  color: black;
+  visibility: hidden;
+}
 .fid, .udemy, .curso24h
 {
   width: 100px;
   height: auto;
   margin-left: 50px
 }
+
