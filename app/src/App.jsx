@@ -1,5 +1,7 @@
 import './App.css'
-import Rotas from "./Rotas"
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './pages/home'
+
 
 
 function App() {
@@ -7,7 +9,11 @@ function App() {
 
   return (
     <>
-        <Rotas />
+             <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<Home />}></Route>
+                </Routes>
+            </BrowserRouter>
     </>
   )
 }

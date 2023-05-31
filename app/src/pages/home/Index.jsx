@@ -1,9 +1,8 @@
 import '../../App.css'
 import Header from "../../componentes/Header/"
-import Perfil from "../../componentes/Perfil/"
-import Conhecimento from "../../componentes/Conhecimentos/"
-import Footer from '../../componentes/Footer/'
-
+import Cursos from '../Cursos/Index'
+import Conhecimento from '../Conhecimentos'
+import ProjetosH from '../Projetos/ProjetosHome/Index'
 
 function Home() {
 
@@ -17,16 +16,13 @@ function Home() {
         <div className="conteudoPagina">
 
           <section>
-
-              <Perfil/>
-            
-              <Conhecimento />
-
+               <Cursos /> 
+              <Conhecimento /> 
+              <ProjetosH />
           </section>
           
 
         </div>
-          <Footer />
      </div>
     </>
   )

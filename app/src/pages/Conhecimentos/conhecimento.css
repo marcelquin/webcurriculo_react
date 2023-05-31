@@ -1,0 +1,48 @@
+.conhecimentos
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxc
+{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.conhecimentos .html
+{
+    background-image: url(../../imagem/habilidades/html.png);
+}
+.conhecimentos .css
+{
+    background-image: url(../../imagem/habilidades/css.png);
+}
+
+.conhecimentos .React
+{
+    background-image: url(../../imagem/habilidades/react.png);
+}
+
+.conhecimentos .angular
+{
+    background-image: url(../../imagem/habilidades/angular.png);
+}
+
+.conhecimentos .vite
+{
+    background-image: url(../../imagem/habilidades/vite.png);
+}
+
+.conhecimentos .java
+{
+    background-image: url(../../imagem/habilidades/java.png);
+}
+.conhecimentos .ps
+{
+    background-image: url(../../imagem/habilidades/photoshop.png); 
+}

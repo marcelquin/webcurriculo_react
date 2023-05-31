@@ -14,14 +14,7 @@
   font-family: 'Courier New', Courier, monospace;
   margin: 25px;
 }
-.blocoCurso:hover
-{
-  background-color: aqua;
-  background-size: cover;
-  >h3{visibility: hidden;}
-  >p{visibility: hidden;}
-  >a{visibility: visible;}
-}
+
 .blocoCurso h3
 {
   text-transform: uppercase;
@@ -40,7 +33,6 @@
 {
   font-size: 21px;
   color: black;
-  visibility: hidden;
 }
 .fid, .udemy, .curso24h
 {

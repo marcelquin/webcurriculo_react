@@ -1,6 +1,6 @@
 import "../../App.css"
 import "./header.css"
-import {Link} from "react-router-dom"
+import Perfil from "../Perfil"
 function Header() {
 
 
@@ -8,11 +8,7 @@ function Header() {
       <>        
             <header>
             <div className="logo"></div>
-            <nav>
-                <Link to="/"><span> Home </span></Link>
-                <Link to="/Cursos"> <span>Cursos </span> </Link>
-                <Link to="/Projetoshome"><span> Projetos</span> </Link>
-            </nav>
+            <Perfil />
         </header>
       </>
     )

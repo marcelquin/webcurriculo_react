@@ -8,30 +8,11 @@ header
 
 .logo
 {
-  width: 350px;
-  height: 140px;
-  margin: 10px;
-  background-image: url(../../img/logo.png);
+  width: 550px;
+  height: 450px;
+  margin: 15px;
+  background-image: url(../../imagem/perfil.jpg);
   background-size: cover;
+  border-radius: 40%;
 }
 
-nav
-{
-  width: 600px;
-  height: 60px;
-  display: flex;
-  color: #454545;
-  margin-left: 30%;
-  margin-top: 5%;
-}
-nav span
-{
-  font-size: 25px;
-  margin: 25px;
-}
-
-nav span:hover
-{
-  color:#146C94;
-  font-size: 28px;
-}

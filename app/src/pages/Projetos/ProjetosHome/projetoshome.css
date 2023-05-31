@@ -8,39 +8,45 @@
   height: auto;
   align-items: center;
   justify-content: center;
-}
-.boxprojetoh
-{
-  width: 300px;
-  height: 400px;
-  margin: 20px;
-  border-radius: 25%;
-
-}
-.sphotel
-{
-    margin-top: 100px;
-}
-.btn
-{
-  background-color: #AFD3E2;
-  color: rgb(1, 1, 1);
-  font-size: 14px;
-  font-style: italic;
-  margin-top: 350px;
-  border-radius: 10%;
-}
-.btn:hover
-{
-  background-color: #146C94;
-  color: white;
-}
-.sphotel:hover
-{
-  color:black;
+  box-sizing: border-box;
 }
 
-.imgwebcurriculo
+.boxprojeto
 {
-  background-image: url(../../../img/webcurriculo.PNG);
+  width: 35%;
+  height: 750px;
+  border:3px solid #212A3E;
+  text-align: center;
+  margin: 5%;
+}
+
+.boxprojeto .imgprojeto
+{
+  width: 70%;
+  height: 250px;
+  margin-left: 15%;
+  background-size: cover;
+}
+.tecs span
+{
+
+}
+.doceria
+{
+  background-image: url(../../../imagem/projetos/doceria.png);
+}
+
+.sitecomercial
+{
+  background-image: url(../../../imagem/projetos/siteComercial.png);
+}
+
+.webcurriculo
+{
+  background-image: url(../../../imagem/projetos/webcurriculo.PNG);
+}
+
+.portifolio
+{
+  background-image: url(../../../imagem/projetos/portifolio.png);
 }
